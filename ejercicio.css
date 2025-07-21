@@ -1,0 +1,60 @@
+nav {
+    background-color: rgb(199, 161, 234);
+    display: flex;
+
+}
+
+
+a {
+    margin-right: 25px;
+}
+
+a:hover {
+    background-color: rgb(128, 48, 118);
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+
+
+div.container {
+    margin-top: 50px;
+
+}
+
+
+div.col-sm-1.col-md-6.col-lg-6.border {
+    justify-items: center;
+}
+
+div.col-lg-12.col-md-12.col-sm-12.border {
+    margin-top: 50px;
+}
+
+div.row {
+
+    text-align: center;
+
+}
+
+
+ol {
+    width: 100%;
+    text-align: left;
+}
+
+#txtf {
+    text-align: left;
+}
+
+@media(max-width: 500px) {
+
+    #txtf,
+    ol {
+        text-align: center;
+        background-color: rgb(149, 95, 200);
+        width: auto;
+    }
+
+}
